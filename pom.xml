@@ -165,6 +165,9 @@
       		</plugin>
 	    </plugins>
 </build>
-
+<!-- 解决console中文乱码问题 -->
+ <properties>
+      <argLine>-Dfile.encoding=UTF-8</argLine>
+ </properties>
 
 </project>
